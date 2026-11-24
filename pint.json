@@ -1,0 +1,10 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "Pint/laravel_blade": true,
+        "concat_space": false,
+        "not_operator_with_successor_space": false,
+        "unary_operator_spaces": false,
+        "function_declaration": false
+    }
+}

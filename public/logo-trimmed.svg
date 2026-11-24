@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 410 140" width="100%" height="auto">
+  <defs>
+    <radialGradient id="yohoRed" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FF3333"/>
+      <stop offset="45%" stop-color="#E60012"/>
+      <stop offset="85%" stop-color="#880000"/>
+      <stop offset="100%" stop-color="#4A0000"/>
+    </radialGradient>
+    <radialGradient id="yohoSilver" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#D1D5DB"/>
+      <stop offset="75%" stop-color="#6B7280"/>
+      <stop offset="100%" stop-color="#1F2937"/>
+    </radialGradient>
+    <linearGradient id="textSilver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#E5E7EB"/>
+      <stop offset="100%" stop-color="#9CA3AF"/>
+    </linearGradient>
+    <filter id="yohoShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <g transform="translate(95, 90)" filter="url(#yohoShadow)">
+    <path d="M 0,-52 C 24,-52 46,-38 52,-14 C 40,-16 26,-8 18,6 L 18,46 C 8,50 -8,50 -18,46 L -18,6 C -26,-8 -40,-16 -52,-14 C -46,-38 -24,-52 0,-52 Z" fill="url(#yohoRed)"/>
+    <circle cx="0" cy="-6" r="21" fill="url(#yohoSilver)"/>
+    <ellipse cx="-6" cy="-12" rx="6" ry="3.5" fill="#FFFFFF" opacity="0.65" transform="rotate(-20 -6 -12)"/>
+  </g>
+  <g transform="translate(185, 0)">
+    <text x="0" y="96" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="56" fill="url(#textSilver)" letter-spacing="5" filter="url(#yohoShadow)">YOHO</text>
+    <text x="2" y="132" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="800" font-size="26" fill="#E60012" letter-spacing="9" filter="url(#yohoShadow)">CINEMAS</text>
+  </g>
+</svg>

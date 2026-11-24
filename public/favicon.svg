@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- シネマレッドのグラデーション背景 -->
+    <linearGradient id="yoho-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BE0027" />
+      <stop offset="100%" stop-color="#6B0014" />
+    </linearGradient>
+    <!-- チケット・アクセント用のゴールドグラデーション -->
+    <linearGradient id="yoho-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE066" />
+      <stop offset="100%" stop-color="#D4AC0D" />
+    </linearGradient>
+  </defs>
+
+  <!-- アイコンベース（角丸正方形） -->
+  <rect width="512" height="512" rx="112" fill="url(#yoho-bg)" />
+
+  <!-- 映画チケットのシルエット（背景アクセント） -->
+  <path d="M110 180 C110 160, 126 144, 146 144 L366 144 C386 144, 402 160, 402 180 C382 180, 382 210, 402 210 L402 302 C382 302, 382 332, 402 332 C402 352, 386 368, 366 368 L146 368 C126 368, 110 352, 110 332 C130 332, 130 302, 110 302 L110 210 C130 210, 130 180, 110 180 Z" 
+        fill="url(#yoho-gold)" opacity="0.25" />
+
+  <!-- 中央の太い「Y」の文字モチーフ -->
+  <path d="M152 136 L226 136 L256 218 L286 136 L360 136 L292 280 L292 376 L220 376 L220 280 Z" fill="#FFFFFF" />
+
+  <!-- 映画スター（輝き）アクセント -->
+  <path d="M350 160 L356 180 L376 186 L356 192 L350 212 L344 192 L324 186 L344 180 Z" fill="url(#yoho-gold)" />
+</svg>

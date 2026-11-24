@@ -1,0 +1,32 @@
+{
+    "semi": true,
+    "singleQuote": true,
+    "singleAttributePerLine": false,
+    "htmlWhitespaceSensitivity": "css",
+    "trailingComma": "none",
+    "printWidth": 150,
+    "plugins": [
+        "@ianvs/prettier-plugin-sort-imports",
+        "prettier-plugin-tailwindcss",
+        "prettier-plugin-css-order"
+    ],
+    "tailwindFunctions": ["clsx", "cn"],
+    "tabWidth": 4,
+    "importOrder": [
+        "^(svelte/(.*)$)|^(svelte$)",
+        "^(@sveltejs/(.*)$)|^(@sveltejs/kit$)",
+        "^(@inertiajs/(.*)$)|^(@inertiajs/svelte$)",
+        "^(laravel-vite-plugin/(.*)$)|^(laravel-vite-plugin$)",
+        "",
+        "<THIRD_PARTY_MODULES>",
+        "",
+        "^[./]",
+        "",
+        "^\\$app/(.*)$",
+        "^\\$env/(.*)$",
+        "^\\$service-worker",
+        "^\\$lib/(.*)$"
+    ],
+    "importOrderParserPlugins": ["typescript", "importAssertions"],
+    "cssDeclarationSorterOrder": "smacss"
+}

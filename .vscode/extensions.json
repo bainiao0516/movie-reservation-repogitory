@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        // Common
+        "mikestead.dotenv",
+
+        // PHP
+        "bmewburn.vscode-intelephense-client",
+        "laravel.vscode-laravel",
+        "open-southeners.laravel-pint",
+        "sanderronde.phpstan-vscode",
+
+        // JavaScript and CSS
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+    ],
+    "unwantedRecommendations": []
+}
